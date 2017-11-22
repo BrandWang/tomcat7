@@ -19,4 +19,4 @@ RUN rm -rf\
 ENV TIME_ZONE              Asia/Shanghai
 
 
-CMD ["apache-tomcat-7.0.82/bin/startup.sh","run"]
+CMD ["apache-tomcat-7.0.82/bin/catalina.sh","run"]
